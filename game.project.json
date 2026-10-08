@@ -1,0 +1,162 @@
+{
+  "name": "game",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "AbilityData": {
+        "$path": "src/game/ReplicatedStorage/AbilityData.lua"
+      },
+      "BossData": {
+        "$path": "src/game/ReplicatedStorage/BossData.lua"
+      },
+      "Janitor": {
+        "$path": "src/game/ReplicatedStorage/Janitor.lua"
+      },
+      "MobData": {
+        "$path": "src/game/ReplicatedStorage/MobData.lua"
+      },
+      "StatusData": {
+        "$path": "src/game/ReplicatedStorage/StatusData.lua"
+      },
+      "UpgradeData": {
+        "$path": "src/game/ReplicatedStorage/UpgradeData.lua"
+      },
+      "UpgradeService": {
+        "$path": "src/game/ReplicatedStorage/UpgradeService.lua"
+      },
+      "VFXKit": {
+        "$path": "src/game/ReplicatedStorage/VFXKit.lua"
+      },
+      "CaseConfig": {
+        "$path": "src/shared/ReplicatedStorage/CaseConfig.lua"
+      },
+      "DifficultyData": {
+        "$path": "src/shared/ReplicatedStorage/DifficultyData.lua"
+      },
+      "MapConfig": {
+        "$path": "src/shared/ReplicatedStorage/MapConfig.lua"
+      },
+      "MetaConfig": {
+        "$path": "src/shared/ReplicatedStorage/MetaConfig.lua"
+      },
+      "PlaceConfig": {
+        "$path": "src/shared/ReplicatedStorage/PlaceConfig.lua"
+      },
+      "PlacementRules": {
+        "$path": "src/shared/ReplicatedStorage/PlacementRules.lua"
+      },
+      "PlaytimeConfig": {
+        "$path": "src/shared/ReplicatedStorage/PlaytimeConfig.lua"
+      },
+      "RarityData": {
+        "$path": "src/shared/ReplicatedStorage/RarityData.lua"
+      },
+      "TowerData": {
+        "$path": "src/shared/ReplicatedStorage/TowerData.lua"
+      },
+      "UIKit": {
+        "$path": "src/shared/ReplicatedStorage/UIKit.lua"
+      }
+    },
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "AbilityService": {
+        "$path": "src/game/ServerScriptService/AbilityService.server.lua"
+      },
+      "AntiCheat": {
+        "$path": "src/game/ServerScriptService/AntiCheat.server.lua"
+      },
+      "BossController": {
+        "$path": "src/game/ServerScriptService/BossController.lua"
+      },
+      "CombatService": {
+        "$path": "src/game/ServerScriptService/CombatService.lua"
+      },
+      "LoadoutService": {
+        "$path": "src/game/ServerScriptService/LoadoutService.server.lua"
+      },
+      "MapService": {
+        "$path": "src/game/ServerScriptService/MapService.server.lua"
+      },
+      "MatchLink": {
+        "$path": "src/game/ServerScriptService/MatchLink.server.lua"
+      },
+      "Script": {
+        "$path": "src/game/ServerScriptService/Script.server.lua"
+      },
+      "StatusEffectManager": {
+        "$path": "src/game/ServerScriptService/StatusEffectManager.lua"
+      },
+      "TowerControl": {
+        "$path": "src/game/ServerScriptService/TowerControl.server.lua"
+      },
+      "TowerManeger": {
+        "$path": "src/game/ServerScriptService/TowerManeger.server.lua"
+      },
+      "TowerPlacement": {
+        "$path": "src/game/ServerScriptService/TowerPlacement.server.lua"
+      },
+      "CaseService": {
+        "$path": "src/shared/ServerScriptService/CaseService.server.lua"
+      },
+      "Guard": {
+        "$path": "src/shared/ServerScriptService/Guard.lua"
+      },
+      "MetaService": {
+        "$path": "src/shared/ServerScriptService/MetaService.server.lua"
+      },
+      "PlayerData": {
+        "$path": "src/shared/ServerScriptService/PlayerData.lua"
+      },
+      "PlaytimeRewards": {
+        "$path": "src/shared/ServerScriptService/PlaytimeRewards.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+        "BossUI": {
+          "$path": "src/game/StarterPlayerScripts/BossUI.client.lua"
+        },
+        "CombatVFX": {
+          "$path": "src/game/StarterPlayerScripts/CombatVFX.client.lua"
+        },
+        "HUD": {
+          "$path": "src/game/StarterPlayerScripts/HUD.client.lua"
+        },
+        "LoadoutUI": {
+          "$path": "src/game/StarterPlayerScripts/LoadoutUI.client.lua"
+        },
+        "MapClient": {
+          "$path": "src/game/StarterPlayerScripts/MapClient.client.lua"
+        },
+        "ReturnUI": {
+          "$path": "src/game/StarterPlayerScripts/ReturnUI.client.lua"
+        },
+        "ShopUI": {
+          "$path": "src/game/StarterPlayerScripts/ShopUI.client.lua"
+        },
+        "SkipUI": {
+          "$path": "src/game/StarterPlayerScripts/SkipUI.client.lua"
+        },
+        "TowerInfoUI": {
+          "$path": "src/game/StarterPlayerScripts/TowerInfoUI.client.lua"
+        },
+        "TowerVFX": {
+          "$path": "src/game/StarterPlayerScripts/TowerVFX.client.lua"
+        },
+        "UnitAnimator": {
+          "$path": "src/game/StarterPlayerScripts/UnitAnimator.client.lua"
+        },
+        "CaseUI": {
+          "$path": "src/shared/StarterPlayer/CaseUI.client.lua"
+        },
+        "LobbyMenu": {
+          "$path": "src/shared/StarterPlayer/LobbyMenu.client.lua"
+        }
+      }
+    }
+  }
+}

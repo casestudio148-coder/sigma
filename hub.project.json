@@ -1,0 +1,78 @@
+{
+  "name": "hub",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "CaseConfig": {
+        "$path": "src/shared/ReplicatedStorage/CaseConfig.lua"
+      },
+      "DifficultyData": {
+        "$path": "src/shared/ReplicatedStorage/DifficultyData.lua"
+      },
+      "MapConfig": {
+        "$path": "src/shared/ReplicatedStorage/MapConfig.lua"
+      },
+      "MetaConfig": {
+        "$path": "src/shared/ReplicatedStorage/MetaConfig.lua"
+      },
+      "PlaceConfig": {
+        "$path": "src/shared/ReplicatedStorage/PlaceConfig.lua"
+      },
+      "PlacementRules": {
+        "$path": "src/shared/ReplicatedStorage/PlacementRules.lua"
+      },
+      "PlaytimeConfig": {
+        "$path": "src/shared/ReplicatedStorage/PlaytimeConfig.lua"
+      },
+      "RarityData": {
+        "$path": "src/shared/ReplicatedStorage/RarityData.lua"
+      },
+      "TowerData": {
+        "$path": "src/shared/ReplicatedStorage/TowerData.lua"
+      },
+      "UIKit": {
+        "$path": "src/shared/ReplicatedStorage/UIKit.lua"
+      }
+    },
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "HubBuilder": {
+        "$path": "src/hub/ServerScriptService/HubBuilder.server.lua"
+      },
+      "HubService": {
+        "$path": "src/hub/ServerScriptService/HubService.server.lua"
+      },
+      "CaseService": {
+        "$path": "src/shared/ServerScriptService/CaseService.server.lua"
+      },
+      "Guard": {
+        "$path": "src/shared/ServerScriptService/Guard.lua"
+      },
+      "MetaService": {
+        "$path": "src/shared/ServerScriptService/MetaService.server.lua"
+      },
+      "PlayerData": {
+        "$path": "src/shared/ServerScriptService/PlayerData.lua"
+      },
+      "PlaytimeRewards": {
+        "$path": "src/shared/ServerScriptService/PlaytimeRewards.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterCharacterScripts": {
+        "$ignoreUnknownInstances": true,
+        "HubClient": {
+          "$path": "src/hub/StarterCharacterScripts/HubClient.client.lua"
+        },
+        "CaseUI": {
+          "$path": "src/shared/StarterPlayer/CaseUI.client.lua"
+        },
+        "LobbyMenu": {
+          "$path": "src/shared/StarterPlayer/LobbyMenu.client.lua"
+        }
+      }
+    }
+  }
+}
